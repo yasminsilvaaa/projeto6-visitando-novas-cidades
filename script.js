@@ -1,7 +1,7 @@
 function runTouristProgram() {
     let touristName = prompt("Qual seu nome, turista?");
-    let citiesVisitedCount = 0;
-    let citiesList = "";
+    let citiesVisitedCount = 0
+    let citiesList = ""
     let hasVisitedCity = prompt("Você visitou alguma cidade? (s/n)").toLowerCase();
 
     // Loop para coletar nomes das cidades visitadas
